@@ -12,14 +12,14 @@ const fromEuroToDollar = function(valueInEuro){
 }
 const fromDollarToYen = function(valueInDollar) {
     // convertimos el valor a yenes
-    let valueInYen = valueInDollar * 127.9;
+    let valueInYen = valueInDollar * 4.2;
     // retornamos el valor
     return valueInYen;
 };
 
 const fromYenToPound = function(valueInYen) {
     // convertimos el valor a libras
-    let valueInPound = valueInYen * 0.8;
+    let valueInPound = valueInYen * 4.2;
     // retornamos el valor
     return valueInPound;
 };
